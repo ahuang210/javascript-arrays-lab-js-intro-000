@@ -1,40 +1,29 @@
 var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 // Add your functions and code here
-var destructivelyAppendKitten = (array, name) => {
-  var name = "Ralph";
+var destructivelyAppendKitten = name => {
   kittens.push(name);
   return kittens
 }
 
-var kittens = ["Milo", "Otis", "Garfield"]
-
-var destructivelyPrependKitten = (array, name) => {
-  var name = "Bob";
+var destructivelyPrependKitten = name => {
   kittens.unshift(name);
   return kittens
 }
 
-var kittens = ["Milo", "Otis", "Garfield"]
-
-var destructivelyRemoveLastKitten = (array, name) => {
+var destructivelyRemoveLastKitten = () => {
   kittens.pop()
   return kittens
 }
 
-var kittens = ["Milo", "Otis", "Garfield"]
-
-var destructivelyRemoveFirstKitten = (array, name) => {
+var destructivelyRemoveFirstKitten = () => {
   kittens.shift()
   return kittens
 }
-
-var kittens = ["Milo", "Otis", "Garfield"]
 
 var appendKitten = name => {
   return [...kittens, name]
 }
 
 var prependKitten = name => {
-  var name = "Arnold";
   return [name, ...kittens]
 }
