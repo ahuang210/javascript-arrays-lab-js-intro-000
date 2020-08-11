@@ -34,3 +34,8 @@ var appendKitten = (array, name) => {
   var name = "Broom";
   return [...kittens, name]
 }
+
+var prependKitten = (array, name) => {
+  var name = "Arnold";
+  return [name, ...kittens]
+}
