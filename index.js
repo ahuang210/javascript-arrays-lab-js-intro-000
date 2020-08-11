@@ -30,12 +30,11 @@ var destructivelyRemoveFirstKitten = (array, name) => {
 
 var kittens = ["Milo", "Otis", "Garfield"]
 
-var appendKitten = (array, name) => {
-  var name = "Broom";
+var appendKitten = name => {
   return [...kittens, name]
 }
 
-var prependKitten = (array, name) => {
+var prependKitten = name => {
   var name = "Arnold";
   return [name, ...kittens]
 }
