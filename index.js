@@ -32,5 +32,5 @@ var kittens = ["Milo", "Otis", "Garfield"]
 
 var appendKitten = (array, name) => {
   var name = "Broom";
-  return [kittens..., name]
+  return [...kittens, name]
 }
